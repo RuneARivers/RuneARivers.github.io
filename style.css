@@ -30,6 +30,13 @@ body {
         display: inline;
         margin: 0 1rem;
     }
+    nav ul li:hover {
+        border-bottom: 2px solid #59477c;
+    }
+        
+    nav ul li.active {
+        border-bottom: 2px solid #59477c;
+    }
     
     nav ul li a {
         color: #fff;
@@ -41,11 +48,28 @@ body {
         text-align: center;
     }
 
+    .project-image {
+        display: inline-block;
+        padding: 5px;
+        max-height: 350px;
+        margin: 0 auto;
+        border-radius: 5%;
+    }
+
+    .project-image:hover {
+        transform: scale(1.5);
+    }
+
     .cert-image {
         display: inline-block;
         width: 50%;
         max-width: 300px;
         margin: 0 auto;
+        
+    }
+
+    .cert-image:hover {
+        transform: scale(1.2);
     }
 
     form {
